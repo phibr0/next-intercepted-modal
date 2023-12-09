@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-export default function ({ params }: { params: { id: string } }) {
+export default function Page({ params }: { params: { id: string } }) {
   return (
     <div className="flex flex-col gap-2">
       <span>{params.id} - Subpage</span>
